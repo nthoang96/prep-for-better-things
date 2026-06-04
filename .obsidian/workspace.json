@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundations/Networking basics.md",
+                "file": "foundations/Networking concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking basics"
+              "title": "Networking concept"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundations/Networking basics.md",
+                "file": "foundations/Networking concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Networking basics"
+              "title": "Networking concept"
             }
           }
         ],
@@ -223,7 +223,7 @@
   "active": "466eea91fb925f1d",
   "lastOpenFiles": [
     "ddia/Chapter - 1.md",
-    "foundations/Networking basics.md",
+    "foundations/Networking concept.md",
     "ddia",
     "bytebytego/Untitled.md",
     "foundations",
