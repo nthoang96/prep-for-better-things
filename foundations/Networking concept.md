@@ -9,6 +9,15 @@
 **Switch**
 - Is the box that ties the local network together. Multiple devices plug into it (or connect to it via Wifi through a router). It reads destination MAC addresses to forward data packets only to the intended device.
 
+![[Pasted image 20260604224046.png]]
+
 ## Network Identification & Sizing
 **IP Address**
-- 
+- A logical, changeable address assigned to a device so it can be identified across different networks.
+	- **Static IP**: Manually typed and assigned in network settings.
+	- **DHCP** - Dynamic Host Configuration Protocol: Automatically assigns IP addresses to devices when they join a network. 
+
+**Subnet**
+- A parameter that defines the specific size (boundaries) of your local network.
+
+## Routing Traffic Between Networks
