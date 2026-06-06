@@ -74,17 +74,20 @@ HTTP is the protocol browsers use to request and load web pages. Combining HTTP 
 A device sitting in front of multiple servers that distributes incoming user requests evenly among them. This prevents server overloads and ensures application uptime.
 
 ## Top 8 popular network protocols
-![[network-protocols.png]]
+![[assets/foundations/ftp.png]]
+
 **HTTP** - HyperText Transfer Protocol
 a single stateless request/response cycle.
 
 use cases: Web Browsing
+
 ![[http.png]]
 
 **HTTP/3 (QUIC)**
 one QUIC connection over UDP carrying independent streams, so a loss on one doesn't stall the rest.
 
 use cases: IoT, Virtual Reality
+
 ![[http-3-quic.png]]
 
 **HTTPS** - HyperText Transfer Protocol Secure
@@ -105,21 +108,25 @@ use cases: Live Chat, Real-Time Data Transmission
 the three-way handshake opens the connection, then data is acknowledged and retransmitted if lost.
 
 use cases: Web Browsing, Email Protocols
+
 ![[tcp.png]]
 
 **UDP** - User Datagram Protocol
 no handshake and no acknowledgements; datagrams are fired off, and a lost one is simply gone.
 
 use cases: Video Conferencing
+
 ![[udp.png]]
 
 **SMTP** - Simple Mail Transfer Protocol
 mail is pushed outward server to server; retrieving it at the end is a different protocol's job
 
 use cases: Sending/Receiving Emails
+
 ![[smtp.png]]
 **FTP** - File Transfer Protocol
 unusually, it uses two parallel connections; one for commands, a separate one for the file data.
 
 use cases: Upload/Download Files
+
 ![[ftp.png]]
