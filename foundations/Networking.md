@@ -37,7 +37,7 @@ Rules that tell routers where to forward traffic:
 	- EGP - Exterior gateway: run between autonomous systems between different companies and ISPs that make up the internet.
 		- BGP (Border Gateway Protocol): The protocol used by large Internet Service Providers (ISPs) to exchange routing paths between different companies.
 
-![[routing.png]]
+![](../assets/foundations/routing.png)
 ### Troubleshooting & Data Protocols
 **Ping & ICMP**
 Ping sends a small packet to a destination to check if it's reachable. It relies on ICMP (Internet Control Message Protocol) which is used primarily for network troubleshooting.
@@ -51,9 +51,11 @@ A fast, connectionless protocol. It sends data without waiting for arrival confi
 **Ports**
 Virtual numbers that direct data to the correct application on a device once the IP address finds the correct hardware (port 80 for HTTP, 443 for HTTPS, 53 for DNS, 22 for SSH, 25 for SMTP).
 
-![[network-trouble-shooting.png]]
+![](../assets/foundations/network-trouble-shooting.png)
 ### Network Security
-![[network-security.png]]**Firewall**
+![](../assets/foundations/network-security.png)
+
+**Firewall**
 A barrier that controls incoming and outgoing traffic based on security rules, capable of blocking specific ports or IP addresses.
 
 **TLS** - Transport Layer Security
@@ -62,7 +64,7 @@ The modern successor to SSL. It encrypts a specific connection (like a web brows
 **VPN** - Virtual Private Network
 Creates a fully encrypted tunnel that protects all network traffic leaving your device to another network, ensuring privacy.
 
-![[vpn.png]]
+![](../assets/foundations/vpn.png)
 
 ### Web Interaction & Scaling
 **DNS** - Domain Name System
@@ -75,59 +77,60 @@ HTTP is the protocol browsers use to request and load web pages. Combining HTTP 
 A device sitting in front of multiple servers that distributes incoming user requests evenly among them. This prevents server overloads and ensures application uptime.
 
 ## Top 8 popular network protocols
-![[ftp.png]]
+![](../assets/foundations/network-protocols.png)
 
 **HTTP** - HyperText Transfer Protocol
 a single stateless request/response cycle.
 
 use cases: Web Browsing
 
-![[http.png]]
+![](../assets/foundations/http.png)
 
 **HTTP/3 (QUIC)**
 one QUIC connection over UDP carrying independent streams, so a loss on one doesn't stall the rest.
 
 use cases: IoT, Virtual Reality
 
-![[http-3-quic.png]]
+![](../assets/foundations/http-3-quic.png)
 
 **HTTPS** - HyperText Transfer Protocol Secure
 a TLS handshake first establishes an encrypted channel; only then does HTTP flow, unreadable to anyone watching.
 
 use cases: Web Browsing
 
-![[https.png]]
+![](../assets/foundations/https.png)
 
 **WebSocket**
 an HTTP request upgrades the connection, then it stays open for either side to send messages at any time.
 
 use cases: Live Chat, Real-Time Data Transmission
 
-![[websocket.png]]
+![](../assets/foundations/websocket.png)
 
 **TCP** - Tranmission Control Protocol
 the three-way handshake opens the connection, then data is acknowledged and retransmitted if lost.
 
 use cases: Web Browsing, Email Protocols
 
-![[tcp.png]]
+![](../assets/foundations/tcp.png)
 
 **UDP** - User Datagram Protocol
 no handshake and no acknowledgements; datagrams are fired off, and a lost one is simply gone.
 
 use cases: Video Conferencing
 
-![[udp.png]]
+![](../assets/foundations/udp.png)
 
 **SMTP** - Simple Mail Transfer Protocol
 mail is pushed outward server to server; retrieving it at the end is a different protocol's job
 
 use cases: Sending/Receiving Emails
 
-![[smtp.png]]
+![](../assets/foundations/smtp.png)
+
 **FTP** - File Transfer Protocol
 unusually, it uses two parallel connections; one for commands, a separate one for the file data.
 
 use cases: Upload/Download Files
 
-![[ftp.png]]
+![](../assets/foundations/ftp.png)
