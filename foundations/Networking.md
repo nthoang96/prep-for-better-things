@@ -10,7 +10,7 @@
 **Switch**
 - Is the box that ties the local network together. Multiple devices plug into it (or connect to it via Wifi through a router). It reads destination MAC addresses to forward data packets only to the intended device.
 
-![[switch.png]]
+![](../assets/foundations/switch.png)
 
 ### Network Identification & Sizing
 **IP Address**
@@ -50,6 +50,7 @@ A fast, connectionless protocol. It sends data without waiting for arrival confi
 
 **Ports**
 Virtual numbers that direct data to the correct application on a device once the IP address finds the correct hardware (port 80 for HTTP, 443 for HTTPS, 53 for DNS, 22 for SSH, 25 for SMTP).
+
 ![[network-trouble-shooting.png]]
 ### Network Security
 ![[network-security.png]]**Firewall**
@@ -74,7 +75,7 @@ HTTP is the protocol browsers use to request and load web pages. Combining HTTP 
 A device sitting in front of multiple servers that distributes incoming user requests evenly among them. This prevents server overloads and ensures application uptime.
 
 ## Top 8 popular network protocols
-![[assets/foundations/ftp.png]]
+![[ftp.png]]
 
 **HTTP** - HyperText Transfer Protocol
 a single stateless request/response cycle.
