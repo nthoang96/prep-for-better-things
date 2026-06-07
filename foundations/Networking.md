@@ -159,3 +159,16 @@ unusually, it uses two parallel connections; one for commands, a separate one fo
 use cases: Upload/Download Files
 
 ![](../assets/foundations/ftp.png)
+
+## IPv4 vs. IPv6, what are the differences?
+![](../ipv4-vs-ip6.png)
+
+IPv4 private ranges (not routed on internet): `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`
+
+**Why IPv6 exists**
+- IPv4's ~4.3 billion addresses ran out → NAT + private ranges were workarounds
+- IPv6 = 128-bit → ~3.4×10³⁸ addresses; scarcity no longer a concern
+
+**Coexistence**
+- Not a finished switch — most networks run **dual-stack** (both at once)
+- Not directly interoperable; a v6-only and v4-only host need translation in between
