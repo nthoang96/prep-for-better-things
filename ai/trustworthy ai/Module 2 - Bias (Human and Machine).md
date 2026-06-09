@@ -21,6 +21,27 @@
 - Bias can exist in both homogeneous and heterogeneous data, requiring careful consideration of when and how to address it.
 
 ### What is Bias?
+**Definitions and Types of Bias**
+- Bias has two main definitions: an ethical/cultural one involving unfair prejudice, and a mathematical one involving systematic distortion in statistics.
+- There are many cognitive biases in humans and various biases in AI and machine learning, such as sampling bias, reporting bias, and algorithmic bias.
+
+**Legal Perspective on Bias**
+- Protected classes (e.g., race, gender) are legally safeguarded against bias in many jurisdictions.
+- Sensitive characteristics are variables that can introduce bias in algorithms but may be necessary for accurate modeling.
+- Legal concepts include disparate treatment (intentional bias), disparate outcome (unequal results regardless of intent), equal opportunity, equal accuracy, calibration, and predictive parity.
+
+**Data and Algorithmic Bias**
+- Sampling bias occurs when data is not representative of the population.
+- Reporting bias happens when only certain outcomes are recorded.
+- Historical bias perpetuates past prejudices in current models.
+- Algorithmic bias arises from the design or functioning of the algorithm itself.
+- Survivorship bias focuses only on data from successful cases, ignoring failures.
+
+**Mathematical and Practical Challenges in Fairness**
+- AI models, such as loan approval systems, face trade-offs when applying fairness constraints across different groups with varying data distributions.
+- Strategies like maximizing profit, group-unaware models, demographic parity, and equal opportunity each have limitations and can conflict.
+- Achieving a universally fair AI system is challenging due to these inherent trade-offs and heterogeneous data.
+
 ### Managing AI Bias
 ### Bias from a Data Perspective
 ### Reading References
