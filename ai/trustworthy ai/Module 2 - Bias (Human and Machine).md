@@ -25,6 +25,8 @@
 - Bias has two main definitions: an ethical/cultural one involving unfair prejudice, and a mathematical one involving systematic distortion in statistics.
 - There are many cognitive biases in humans and various biases in AI and machine learning, such as sampling bias, reporting bias, and algorithmic bias.
 
+![](biases.png)
+
 **Legal Perspective on Bias**
 - Protected classes (e.g., race, gender) are legally safeguarded against bias in many jurisdictions.
 - Sensitive characteristics are variables that can introduce bias in algorithms but may be necessary for accurate modeling.
