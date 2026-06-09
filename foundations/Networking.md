@@ -161,7 +161,7 @@ use cases: Upload/Download Files
 ![](../assets/foundations/ftp.png)
 
 ## IPv4 vs. IPv6, what are the differences?
-![](../ipv4-vs-ip6.png)
+![](../assets/foundations/ipv4-vs-ip6.png)
 
 IPv4 private ranges (not routed on internet): `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`
 
