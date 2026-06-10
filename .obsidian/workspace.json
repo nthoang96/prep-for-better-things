@@ -191,11 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c43b72612d02198",
+  "active": "4b6df08d3676966d",
   "lastOpenFiles": [
+    "ai/trustworthy ai/Module 3 - Responsible AI.md",
+    "ai/trustworthy ai/Module 2 - Bias (Human and Machine).md",
     "ai/trustworthy ai/biases.png",
     "foundations/Networking.md",
-    "ai/trustworthy ai/Module 2 - Bias (Human and Machine).md",
     "ai/trustworthy ai/Module 1 - Course Introduction.md",
     "ai/trustworthy ai",
     "ai",
@@ -209,7 +210,6 @@
     "assets/foundations/websocket.png",
     "assets/foundations/https.png",
     "assets/foundations/http-3-quic.png",
-    "assets/foundations/http.png",
     "assets/foundations",
     "assets",
     "ddia/Chapter - 1.md",

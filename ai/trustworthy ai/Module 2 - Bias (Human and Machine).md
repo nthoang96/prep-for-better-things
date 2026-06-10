@@ -45,6 +45,47 @@
 - Achieving a universally fair AI system is challenging due to these inherent trade-offs and heterogeneous data.
 
 ### Managing AI Bias
+**Understanding Bias in Decision-Making**
+- Data alone may not clearly indicate the best decision due to contextual factors, as shown in the example comparing two candidates, Sam and Mo.
+- Informal factors like networking opportunities and personal responsibilities can influence outcomes beyond measurable performance scores.
+
+**The ADAPT Framework for Managing Bias**
+- Awareness: Identify and measure different types of bias, especially in relation to protected classes or demographics.
+- Diversity: Compare various metrics to detect anomalies or trends and involve diverse perspectives in decision-making.
+
+**Analysis and Transparency**
+- Analyze underlying causes of bias by investigating unmeasured variables and contextual factors.
+- Publish bias data and results to promote transparency, encourage open dialogue, and foster fairness.
+
+**Transformation and Continuous Improvement**
+- Be ready to implement changes based on feedback and continuously improve AI models to reduce bias over time.
+
 ### Bias from a Data Perspective
-### Reading References
-### Understanding and Managing Bias in AI Systems
+**Bias in Data Collection**
+- Sampling bias occurs when the sample data is not representative of the population, leading to poor model performance on underrepresented groups, as seen in facial recognition systems trained on celebrity images.
+- Survivorship bias arises when only surviving or successful cases are analyzed, ignoring those that failed, exemplified by WWII aircraft armor placement decisions based on returning planes.
+
+**Bias in Reporting**
+- Reporting bias happens when only certain outcomes are reported, potentially skewing results.
+- Social desirability bias occurs when respondents provide answers they think are socially acceptable rather than truthful, affecting survey data reliability.
+- Publication bias refers to the tendency to publish only studies with significant or positive results, which can distort research findings.
+
+**Systematic and Algorithmic Bias**
+- Historical bias reflects past prejudices embedded in training data, such as hiring algorithms favoring historically preferred candidates.
+- Algorithmic bias can result from uneven or missing data labels across groups, causing inaccurate predictions for underrepresented populations, as in medical risk prediction models.
+
+**Bias in Homogeneous vs. Heterogeneous Data**
+- Homogeneous data may cause overfitting and confirmation bias due to lack of representativeness.
+- Heterogeneous data can introduce measurement bias, interaction effects, and confounding variables, complicating model interpretation.
+
+**Mitigating Bias**
+- Use random sampling, validated measurement tools, and train data collectors to reduce bias.
+- Collect diverse data sources, maintain transparency, audit data for bias, and involve diverse perspectives in data analysis and model development.
+
+## Addressing Human Bias through Agreement and Nudging Techniques
+### Inter-Annotator Agreement
+
+### Nudging Human Bias - USPTO
+### Nudging Human Bias - Other Examples
+### Amazon Scraps AI Recruiting Tool That Showed Bias Against Women
+### Hotel Fires Robot Staff after Guest Complaints
