@@ -84,8 +84,73 @@
 
 ## Addressing Human Bias through Agreement and Nudging Techniques
 ### Inter-Annotator Agreement
+**Human Disagreement and Its Impact**
+- Human experts often disagree significantly when labeling data, which introduces bias into AI systems.
+- Examples include postal address classification (17% disagreement), online extremism labeling (32%), and medical disability claim outcomes (72%).
+
+**Annotation Quality and AI Performance**
+- Good annotation involves precise and consistent labeling, while poor annotation can overlap or mislabel objects.
+- Precision (correctness of labels) depends on annotation consistency, while recall (completeness) depends on data volume.
+- Early focus on label consistency is crucial to avoid technical debt in AI development.
+
+**Measuring Interannotator Agreement**
+- Interannotator agreement metrics assess how consistently multiple annotators label data independently.
+- Good metrics require clear labels, numeric scales from 0 to 1, and consistent mathematical structure.
+- Percent agreement is simple but limited, especially with multiple categories and random agreement bias.
+
+**Krippendorf's Alpha as a Standard Metric**
+- Krippendorf's alpha is a reliability statistic that meets key criteria, handles missing data, and varying annotator counts.
+- It compares observed disagreements to expected disagreements to measure agreement quality.
+- It is the recommended metric for assessing label consistency in AI projects, unlike F measure which is for classifier performance, not data quality.
+
+**Conclusions**
+- Krippendorf's alpha is the standard for measuring inner annotator agreement but is not widely available in software.
+- Understanding various agreement metrics is important for ensuring high-quality training data and reducing bias in AI systems.
 
 ### Nudging Human Bias - USPTO
+**Nudging Human Bias**
+- Human bias exists alongside machine and algorithmic bias, and methods exist to measure these biases.
+- The lecture investigates whether AI can be used ethically to reduce human bias in decision-making.
+
+**Case Study: US Patent and Trade Office**
+- The US Patent and Trade Office uses AI to return the 10 most similar patents for examiners to review, aiming to improve decision quality rather than reduce costs or staff.
+- A debate arose about adding similarity ratings (stars or percentages) to help examiners assess novelty and when to stop searching.
+
+**Experimental Approach with Movie Similarity**
+- An alternative experiment used movie similarity ratings to simulate patent similarity assessments.
+- Crowdsourced ratings tested different methods: rank order, star ratings, and percentage similarity.
+
+**Findings and Implications**
+- Adding similarity scores improved decision confidence and reduced time spent on reviews.
+- Percentage similarity ratings made examiners more discerning, potentially approving more patents or improving quality.
+- The use of AI nudges can influence human judgment, but ethical considerations remain open for discussion.
+
 ### Nudging Human Bias - Other Examples
-### Amazon Scraps AI Recruiting Tool That Showed Bias Against Women
-### Hotel Fires Robot Staff after Guest Complaints
+**AI Applications to Mitigate Bias in Recruiting**
+- AI-powered resume screening tools can anonymize resumes by masking or generatively rewriting information that reveals gender, race, or educational background to reduce bias.
+- Such tools can still preserve relevant criteria like educational qualifications while minimizing human bias in hiring decisions.
+
+**AI in Judicial Sentencing**
+- AI can analyze sentencing guidelines and case data to provide consistent, fair sentencing benchmarks.
+- While AI should not replace judges, it can support them by highlighting potential biases and aligning decisions with societal values.
+
+**AI for Fair Loan Approval**
+- AI algorithms can focus on objective criteria such as credit scores and repayment history to reduce discriminatory practices by loan officers.
+- In this context, AI decision-making may be more fair and objective than human judgment, with human oversight to prevent bias drift.
+
+**Overall Perspective on AI and Bias**
+- AI can nudge humans toward better, less biased decisions in recruiting, judicial sentencing, loan approvals, and other areas.
+- The goal is not to eliminate AI due to risks but to thoughtfully incorporate it to improve fairness and accountability compared to human benchmarks.
+
+## Module-end Assessment
+**Ethical Challenges of AI Bias**
+- AI systems often reflect biases present in their training data or design, leading to unintended consequences such as inequality and discrimination.
+- Biased algorithms can negatively impact sectors like healthcare, criminal justice, hiring, and loan approvals, disproportionately affecting marginalized or vulnerable groups.
+
+**Responsibility and Mitigation**
+- There is a need to consider who should be responsible for identifying and mitigating AI bias—whether developers, governments, or deploying organizations.
+- Implementing measures to ensure fairness and equity in AI systems is crucial to reduce discriminatory practices.
+
+**Reflection and Future Perspective**
+- Despite challenges, AI has the potential to be a positive force if managed properly to benefit all members of society.
+- Engaging with these ethical questions helps deepen understanding of AI’s societal role and informs responsible future work or study in AI ethics.
