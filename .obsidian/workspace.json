@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+                "file": "ai/trustworthy ai/Module 3 - Responsible AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Overview and Security"
+              "title": "Module 3 - Responsible AI"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "49abf9c0ead57676",
@@ -193,8 +194,8 @@
   },
   "active": "4b6df08d3676966d",
   "lastOpenFiles": [
-    "ai/trustworthy ai/Module 3 - Responsible AI.md",
     "aws/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+    "ai/trustworthy ai/Module 3 - Responsible AI.md",
     "ai/trustworthy ai/Module 2 - Bias (Human and Machine).md",
     "aws/AWS Cloud Technical Essentials",
     "aws",

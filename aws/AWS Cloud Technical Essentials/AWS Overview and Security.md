@@ -1,4 +1,5 @@
-## What is AWS?
+## Getting Started with AWS Cloud
+### What is AWS?
 **What is Cloud Computing?**
 - Cloud computing delivers IT resources like compute, storage, and networking over the internet on a pay-as-you-go basis, eliminating the need for companies to maintain their own physical hardware.
 - It allows rapid provisioning of environments, such as replicating a quality assurance environment in minutes, which would otherwise take days with on-premises infrastructure.
@@ -14,3 +15,6 @@
 **Focus and Global Reach**
 - Eliminates undifferentiated heavy lifting: AWS manages the physical infrastructure, allowing businesses to focus on their unique code and projects.
 - Global deployment: Easily deploy applications in multiple regions worldwide to reduce latency and improve customer experience.
+
+### AWS Global Infrastructure
+
