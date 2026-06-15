@@ -134,3 +134,16 @@
 **Leadership and Public Discourse**
 - IRS leadership must carefully manage AI use, balancing fairness, transparency, and mission impact while responding to public and media scrutiny.
 - The case highlights the need for informed public discourse and congressional oversight on AI-powered government agencies to ensure responsible AI adoption.
+
+## Self-Reflective Reading: Ethics in AI - Responsibility and Transparency
+**Responsibility and Accountability in AI Trolley Problems**
+- It discusses who should be responsible for AI decisions in morally charged scenarios, such as developers, companies, or society.
+- It encourages thinking about moral and legal frameworks to govern AI decisions and how accountability can be ensured.
+
+**The Role of Transparency and Explainability in AI Trolley Problems**
+- The importance of transparency and explainability in AI decisions affecting people's lives is examined.
+- It raises questions about whether AI systems should always be explainable and how transparency impacts trust and ethical concerns.
+
+**Human Baseline Versus AI Decisions in Ethical Dilemmas**
+- The comparison between AI decision-making and human decision-making in ethical dilemmas is explored.
+- It considers whether AI should just match human ethics or aim to surpass them, and how this affects trust and societal acceptance.
