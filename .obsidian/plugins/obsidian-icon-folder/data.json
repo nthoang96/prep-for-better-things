@@ -6,6 +6,9 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSquirrel",
+      "LiFileStack",
+      "LiBrain",
       "LiNetwork"
     ],
     "recentlyUsedIconsSize": 5,
@@ -30,5 +33,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "foundations/Networking.md": "LiNetwork"
+  "foundations/Networking.md": "LiNetwork",
+  "ai": "LiBrain",
+  "assets": "LiFileStack",
+  "temporary": "LiSquirrel"
 }

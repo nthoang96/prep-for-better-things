@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/trustworthy ai/Module 3 - Responsible AI.md",
+                "file": "temporary/Interview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 3 - Responsible AI"
+              "title": "Interview"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "49abf9c0ead57676",
@@ -194,13 +193,16 @@
   },
   "active": "4b6df08d3676966d",
   "lastOpenFiles": [
-    "aws/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+    "foundations/Networking.md",
+    "temporary/Interview.md",
+    "temporary",
+    "ddia/Chapter - 1.md",
     "ai/trustworthy ai/Module 3 - Responsible AI.md",
+    "aws/AWS Cloud Technical Essentials/AWS Overview and Security.md",
     "ai/trustworthy ai/Module 2 - Bias (Human and Machine).md",
     "aws/AWS Cloud Technical Essentials",
     "aws",
     "ai/trustworthy ai/biases.png",
-    "foundations/Networking.md",
     "ai/trustworthy ai/Module 1 - Course Introduction.md",
     "ai/trustworthy ai",
     "ai",
@@ -216,7 +218,6 @@
     "assets/foundations/http-3-quic.png",
     "assets/foundations",
     "assets",
-    "ddia/Chapter - 1.md",
     "ddia",
     "foundations",
     "README.md",
