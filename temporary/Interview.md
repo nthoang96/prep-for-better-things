@@ -22,9 +22,9 @@ Compare between versions of Angular
 
 1 câu hỏi về tech của angular (Singal, Standalone component, zoneless)
 
-- A Signal is Angular's reactive state management primitive. It stores a value and automatically updates anything that depends on it when the value changes.
+A Signal is Angular's reactive state management primitive. It stores a value and automatically updates anything that depends on it when the value changes.
 
-- A Standalone Component is an Angular component that doesn't need to be declared in an NgModule. Instead, it declares its own dependencies using the imports property, making components more self-contained, reusable, and easier to maintain.
+A Standalone Component is an Angular component that doesn't need to be declared in an NgModule. Instead, it declares its own dependencies using the imports property, making components more self-contained, reusable, and easier to maintain.
 **Before**
 
 ```
