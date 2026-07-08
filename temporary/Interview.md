@@ -49,7 +49,7 @@ Application
 
 The component manages its own dependencies.
 
-- **Zoneless** means running an Angular application **without `zone.js`**. Instead of automatically checking for changes after every asynchronous operation, Angular relies on **Signals** and explicit notifications to update the UI. This reduces unnecessary change detection and improves application performance.
+Zoneless is a way to run Angular without `zone.js`. Traditionally, Angular relied on `zone.js` to detect asynchronous operations like HTTP requests, timers, and user events, then ran change detection afterward. With Signals, Angular already knows when state changes and which parts of the UI depend on that state. This allows Angular to update only the affected UI without monitoring every asynchronous task. The result is better performance, a smaller bundle, and more predictable change detection.
 
 ### Traditional Angular (with Zone.js)
 
